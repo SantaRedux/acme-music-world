@@ -5,7 +5,7 @@ const { models: { Song, Track, Artist, Album }} = require('./db');
 
 
 app.use('/dist', express.static(path.join(__dirname, 'dist')));
-app.get('/', (req, res)=> res.sendFile(path.join(__dirname, 'index.html')));
+app.get('/', (req, res)=> res.sendFile(path.join(__dirname, 'src/index.js')));
 
 app.get('/api/artists', async(req, res, next)=> {
   try {

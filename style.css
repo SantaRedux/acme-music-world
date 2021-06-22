@@ -1,0 +1,42 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.tab {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+  height: 36px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 30px;
+}
+
+.tab:focus {
+  outline: none;
+}
+
+.kbd-navigation .tab:focus {
+  background: #ddd;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+}
+
+.album-list,
+.artist-list {
+  margin-left: 20px;
+}
+
